@@ -1,0 +1,64 @@
+/* variables */
+:root{
+    --primary: #FFBB5C;
+    --secodary: #FF9B50;
+    --tertiary: #211951;
+    --quaternary: #836FFF;
+}
+
+.nav-bar {
+background-color: var(--quaternary);
+}
+
+.title {
+    color: var(--primary);
+}
+
+.welcome {
+    background-image: url(./assets/images/beach_73-wallpaper-2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 150px;
+}
+
+h2 {
+    color: var(--primary);
+}
+
+.hello {
+    color: var(--tertiary);
+}
+
+p {
+    color: var(--tertiary);
+}
+
+.pelipper {
+    height: auto;
+    width: 300;
+}
+
+.dennis {
+    height: 300;
+    border-radius: 50%;
+}
+
+footer {
+    background-image: url(./assets/images/footer.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dihms {
+    color: var(--tertiary);
+}
+
+.social {
+    height: 30px;
+}
+
+input textarea button {
+    border-radius: 50%;
+}
